@@ -1,0 +1,62 @@
+[
+  {
+    "id": "mouse",
+    "name": "Mouse Gaming Nexus Wireless",
+    "category": "mouse",
+    "description": "Mouse inalámbrico de alta precisión con sensor óptico avanzado. Perfecto para FPS y MOBA.",
+    "image": "/img/mause.jpg",
+    "price": 89990,
+    "specs": [
+      "Sensor: 16,000 DPI",
+      "Conexión: 2.4GHz Inalámbrico",
+      "Batería: 50 horas de duración",
+      "Botones: 6 programables",
+      "Peso: 95 gramos"
+    ]
+  },
+  {
+    "id": "teclado",
+    "name": "Teclado Mecánico Nexus RGB",
+    "category": "teclado",
+    "description": "Teclado mecánico con switches RGB de 104 teclas. Diseñado para gaming profesional.",
+    "image": "/img/teclado.jpg",
+    "price": 149990,
+    "specs": [
+      "Tipo: Mecánico RGB",
+      "Teclas: 104",
+      "Iluminación: 16.8M colores",
+      "Conexión: USB-C 2.0",
+      "Material: Aluminio + ABS"
+    ]
+  },
+  {
+    "id": "audifonos",
+    "name": "Audífonos Nexus Pro Surround 7.1",
+    "category": "audifonos",
+    "description": "Audífonos inalámbricos con micrófono de cancelación de ruido. Sonido 7.1 envolvente.",
+    "image": "/img/audifonos.webp",
+    "price": 199990,
+    "specs": [
+      "Sonido: 7.1 Surround",
+      "Micrófono: Cancelación de ruido",
+      "Batería: 24 horas",
+      "Conectividad: Bluetooth 5.0",
+      "Impedancia: 32 Ohm"
+    ]
+  },
+  {
+    "id": "silla",
+    "name": "Silla Ergonómica Nexus Throne",
+    "category": "silla",
+    "description": "Silla gaming con reclinación total y soporte lumbar ajustable. Comodidad extrema.",
+    "image": "/img/silla.jpg",
+    "price": 299990,
+    "specs": [
+      "Reclinación: 0-180 grados",
+      "Material: Cuero sintético",
+      "Soporte: Lumbar ajustable",
+      "Altura: 50-60 cm ajustable",
+      "Peso máximo: 150 kg"
+    ]
+  }
+]
