@@ -1,62 +1,602 @@
 [
   {
-    "id": "mouse",
-    "name": "Mouse Gaming Nexus Wireless",
+    "id": "mouse_neon",
+    "name": "Mouse Gaming Nexus Neon Wireless",
     "category": "mouse",
-    "description": "Mouse inalámbrico de alta precisión con sensor óptico avanzado. Perfecto para FPS y MOBA.",
-    "image": "/img/mause.jpg",
+    "description": "Mouse inalámbrico de alta precisión con sensor óptico avanzado y retroiluminación RGB Neon. Ideal para FPS.",
+    "image": "/img/mouse_gaming_neon.jpg",
     "price": 89990,
     "specs": [
-      "Sensor: 16,000 DPI",
-      "Conexión: 2.4GHz Inalámbrico",
-      "Batería: 50 horas de duración",
+      "Sensor: 16,000 DPI Óptico",
+      "Conexión: Inalámbrica 2.4GHz",
+      "Batería: Hasta 50 horas",
       "Botones: 6 programables",
       "Peso: 95 gramos"
     ]
   },
   {
-    "id": "teclado",
-    "name": "Teclado Mecánico Nexus RGB",
-    "category": "teclado",
-    "description": "Teclado mecánico con switches RGB de 104 teclas. Diseñado para gaming profesional.",
-    "image": "/img/teclado.jpg",
-    "price": 149990,
+    "id": "mouse_white",
+    "name": "Mouse Gaming Nexus White Minimalist",
+    "category": "mouse",
+    "description": "Mouse ergonómico blanco mate con diseño ultraligero y sutil iluminación LED púrpura.",
+    "image": "/img/mouse_gaming_white.jpg",
+    "price": 79990,
     "specs": [
-      "Tipo: Mecánico RGB",
-      "Teclas: 104",
-      "Iluminación: 16.8M colores",
-      "Conexión: USB-C 2.0",
-      "Material: Aluminio + ABS"
+      "Sensor: 12,000 DPI",
+      "Conexión: USB Removible / BT",
+      "Batería: Hasta 80 horas",
+      "Botones: 5 programables",
+      "Peso: 68 gramos"
     ]
   },
   {
-    "id": "audifonos",
+    "id": "mouse_cyber",
+    "name": "Mouse Gaming Nexus Cyberpunk Gold",
+    "category": "mouse",
+    "description": "Edición especial cyberpunk con detalles en oro, agarres mecánicos texturizados y luz cian.",
+    "image": "/img/mouse_gaming_cyber.jpg",
+    "price": 99990,
+    "specs": [
+      "Sensor: 20,000 DPI Focus+",
+      "Conexión: Cable Paracord Ultra-flexible",
+      "Switches: Ópticos de 3ra Gen",
+      "Botones: 8 programables",
+      "Peso: 74 gramos"
+    ]
+  },
+  {
+    "id": "mouse_classic",
+    "name": "Mouse Gaming Nexus Pro Classic",
+    "category": "mouse",
+    "description": "El clásico favorito de los profesionales del gaming con diseño ergonómico diestro y agarres de goma.",
+    "image": "/img/mause.jpg",
+    "price": 59990,
+    "specs": [
+      "Sensor: 8,000 DPI Hero",
+      "Conexión: Cable USB trenzado",
+      "Iluminación: RGB Lightsync 1 zona",
+      "Botones: 6 programables",
+      "Switches: Mecánicos Omron"
+    ]
+  },
+  {
+    "id": "mouse_ultralight",
+    "name": "Mouse Gaming Nexus Ultralight RGB",
+    "category": "mouse",
+    "description": "Mouse con estructura de panal de abeja súper liviana y cable paracord para deslizamientos ultra rápidos.",
+    "image": "/img/mouse_gaming_neon.jpg",
+    "price": 69990,
+    "specs": [
+      "Sensor: PixArt 3389",
+      "Conexión: Cable paracord ultra flexible",
+      "Estructura: Panal de abeja (Honeycomb)",
+      "Botones: 6 de respuesta rápida",
+      "Peso: 53 gramos"
+    ]
+  },
+  {
+    "id": "mouse_silent",
+    "name": "Mouse Gaming Nexus Silent Hybrid",
+    "category": "mouse",
+    "description": "Perfecto para jugar de noche sin molestar a nadie. Clics 90% más silenciosos sin perder respuesta táctil.",
+    "image": "/img/mouse_gaming_white.jpg",
+    "price": 49990,
+    "specs": [
+      "Sensor: 4,000 DPI",
+      "Conexión: Bluetooth / Receptor USB",
+      "Clics: Tecnología Silent-Switch",
+      "Batería: Funciona con pila AA (incluida)",
+      "Botones: 4 de navegación"
+    ]
+  },
+  {
+    "id": "mouse_hyperspeed",
+    "name": "Mouse Gaming Nexus HyperSpeed FPS",
+    "category": "mouse",
+    "description": "Tasa de sondeo extrema de 4000Hz para la latencia más baja posible del mercado competitivo.",
+    "image": "/img/mouse_gaming_cyber.jpg",
+    "price": 109990,
+    "specs": [
+      "Sondeo: Tasa de 4,000Hz (Polling Rate)",
+      "Sensor: 26,000 DPI avanzados",
+      "Conexión: HyperSpeed Wireless",
+      "Switches: Ópticos de alta velocidad",
+      "Peso: 62 gramos"
+    ]
+  },
+  {
+    "id": "mouse_budget",
+    "name": "Mouse Gaming Nexus Entry-Level",
+    "category": "mouse",
+    "description": "Excelente relación calidad-precio. El ratón ideal para comenzar en el mundo gaming.",
+    "image": "/img/mause.jpg",
+    "price": 29990,
+    "specs": [
+      "Sensor: 4,200 DPI óptico",
+      "Conexión: Cable USB estándar",
+      "Iluminación: Retroiluminación fija de 7 colores",
+      "Botones: 6 funcionales",
+      "Diseño: Ambidextro ergonómico"
+    ]
+  },
+  {
+    "id": "mouse_gladiator",
+    "name": "Mouse Gaming Nexus Gladiator MMO",
+    "category": "mouse",
+    "description": "Panel lateral de 12 botones mecánicos optimizados para macros en juegos RPG, MMO y MOBA.",
+    "image": "/img/mouse_gaming_neon.jpg",
+    "price": 119990,
+    "specs": [
+      "Sensor: 18,000 DPI",
+      "Panel lateral: 12 botones numéricos",
+      "Conexión: Cable trenzado reforzado",
+      "Macros: Memoria integrada para 5 perfiles",
+      "Peso: Ajustable con pesas internas"
+    ]
+  },
+  {
+    "id": "mouse_quantum",
+    "name": "Mouse Gaming Nexus Quantum Pro",
+    "category": "mouse",
+    "description": "Tecnología de carga inalámbrica por inducción electromagnética. Nunca detengas tu juego.",
+    "image": "/img/mouse_gaming_white.jpg",
+    "price": 129990,
+    "specs": [
+      "Sensor: 30,000 DPI Inteligente",
+      "Carga: Compatible con mousepads de inducción",
+      "Conexión: Quantum-Link Inalámbrica",
+      "Botones: 11 programables con scroll infinito",
+      "Peso: 102 gramos"
+    ]
+  },
+  {
+    "id": "teclado_rgb",
+    "name": "Teclado Mecánico Nexus RGB Ultimate",
+    "category": "teclado",
+    "description": "Teclado mecánico completo con switches Cherry MX Blue y retroiluminación RGB interactiva.",
+    "image": "/img/keyboard_gaming_rgb.jpg",
+    "price": 149990,
+    "specs": [
+      "Tipo: Mecánico completo 100%",
+      "Switches: Cherry MX Blue (Clicky)",
+      "Chasis: Aluminio anodizado de grado militar",
+      "Iluminación: RGB con 16.8M de colores",
+      "Conexión: Cable USB-C a USB-A trenzado"
+    ]
+  },
+  {
+    "id": "teclado_pink",
+    "name": "Teclado Mecánico Nexus Sakura Custom",
+    "category": "teclado",
+    "description": "Edición especial Sakura en colores blanco y rosa pastel. Cuenta con switches silenciosos y chasis compacto.",
+    "image": "/img/keyboard_gaming_white.jpg",
+    "price": 139990,
+    "specs": [
+      "Tipo: Formato compacto TKL (80%)",
+      "Switches: Silent Red (Lineales y silenciosos)",
+      "Keycaps: PBT de doble inyección Sakura",
+      "Iluminación: LED blanca brillante",
+      "Accesorios: Incluye extractor de teclas personalizado"
+    ]
+  },
+  {
+    "id": "teclado_stealth",
+    "name": "Teclado Mecánico Nexus Stealth Yellow",
+    "category": "teclado",
+    "description": "Teclado stealth de perfil bajo con switches amarillos rápidos para escritura y gaming superveloz.",
+    "image": "/img/keyboard_gaming_stealth.jpg",
+    "price": 159990,
+    "specs": [
+      "Tipo: Formato 75% Compacto",
+      "Switches: Yellow Speed (Recorrido de 1.2mm)",
+      "Keycaps: Transparentes translúcidas",
+      "Especial: Rueda de volumen multimedia de aluminio",
+      "Conexión: Inalámbrica Tri-Mode (BT / 2.4G / Cable)"
+    ]
+  },
+  {
+    "id": "teclado_elite",
+    "name": "Teclado Mecánico Nexus Pro Elite",
+    "category": "teclado",
+    "description": "Teclado robusto de nivel eSports con switches mecánicos rojos e iluminación RGB personalizable por software.",
+    "image": "/img/teclado.jpg",
+    "price": 119990,
+    "specs": [
+      "Tipo: Mecánico Completo 104 teclas",
+      "Switches: Outemu Red (Lineales suave)",
+      "Chasis: ABS reforzado con placa de acero",
+      "Teclas multimedia: Dedicadas",
+      "Soporte: Reposamuñecas ergonómico desmontable"
+    ]
+  },
+  {
+    "id": "teclado_compact",
+    "name": "Teclado Mecánico Nexus 60% Nano",
+    "category": "teclado",
+    "description": "El teclado más pequeño de nuestro catálogo. Ahorra espacio máximo en tu escritorio para mover el ratón libremente.",
+    "image": "/img/keyboard_gaming_rgb.jpg",
+    "price": 99990,
+    "specs": [
+      "Tipo: Formato ultra compacto 60%",
+      "Switches: Gateron Brown (Táctiles)",
+      "Conexión: Conector USB-C en ángulo de 90°",
+      "Layout: Español Latinoamericano",
+      "Batería: Recargable integrada de 3000 mAh"
+    ]
+  },
+  {
+    "id": "teclado_retro",
+    "name": "Teclado Mecánico Nexus Retro Typewriter",
+    "category": "teclado",
+    "description": "Diseño clásico inspirado en máquinas de escribir antiguas con teclas redondas y switches mecánicos clicleantes.",
+    "image": "/img/keyboard_gaming_white.jpg",
+    "price": 89990,
+    "specs": [
+      "Diseño: Estilo máquina de escribir retro",
+      "Teclas: Redondas cromadas con borde plateado",
+      "Switches: Blue mecánicos para un sonido fuerte",
+      "Iluminación: Luz de fondo de color azul cálido",
+      "Compatibilidad: Windows, Mac y Android"
+    ]
+  },
+  {
+    "id": "teclado_silent",
+    "name": "Teclado Mecánico Nexus Silent Pro",
+    "category": "teclado",
+    "description": "Teclado con switches mecánicos lubricados de fábrica y espuma amortiguadora de sonido interna.",
+    "image": "/img/keyboard_gaming_stealth.jpg",
+    "price": 109990,
+    "specs": [
+      "Switches: lubricados de fábrica (Pre-lubed)",
+      "Acústica: Espuma amortiguadora interna de silicona",
+      "Estabilizadores: Atornillados a la placa (Screw-in)",
+      "Hot-swap: Zócalos compatibles con 3 y 5 pines",
+      "Construcción: Montaje tipo Gasket Mount"
+    ]
+  },
+  {
+    "id": "teclado_budget",
+    "name": "Teclado Nexus Semi-Mecánico",
+    "category": "teclado",
+    "description": "Teclado híbrido que combina la suavidad de la membrana con el clic táctil del switch mecánico.",
+    "image": "/img/teclado.jpg",
+    "price": 49990,
+    "specs": [
+      "Tecnología: Híbrido semi-mecánico",
+      "Resistencia: Estructura a prueba de salpicaduras de agua",
+      "Iluminación: Rainbow de 3 zonas",
+      "Anti-ghosting: Hasta 19 teclas simultáneas",
+      "Material: Placa superior metálica de alta calidad"
+    ]
+  },
+  {
+    "id": "teclado_tournament",
+    "name": "Teclado Mecánico Nexus Tournament Pro",
+    "category": "teclado",
+    "description": "Diseñado en colaboración con pro-players. Estructura TKL súper delgada y switches mecánicos ultrarrápidos.",
+    "image": "/img/keyboard_gaming_rgb.jpg",
+    "price": 179990,
+    "specs": [
+      "Tipo: TKL sin teclado numérico",
+      "Switches: Nexus Optical Linear Silver (0.8mm actuación)",
+      "Keycaps: PBT de doble capa ultra durable",
+      "Cable: Cable trenzado desmontable tipo C",
+      "Software: Perfiles de macros y mapeo ilimitado"
+    ]
+  },
+  {
+    "id": "teclado_metal",
+    "name": "Teclado Mecánico Nexus Metal Frame",
+    "category": "teclado",
+    "description": "Marco de acero expuesto y diseño sin bordes (frameless) para una limpieza ultra sencilla y estética industrial.",
+    "image": "/img/keyboard_gaming_white.jpg",
+    "price": 129990,
+    "specs": [
+      "Marco: Acero pulido cepillado",
+      "Switches: Box Brown a prueba de polvo (IP56)",
+      "Iluminación: RGB per-key programable",
+      "Adicional: Puerto USB Passthrough integrado",
+      "Teclas: Flotantes para fácil remoción"
+    ]
+  },
+  {
+    "id": "audifonos_pro",
     "name": "Audífonos Nexus Pro Surround 7.1",
     "category": "audifonos",
-    "description": "Audífonos inalámbricos con micrófono de cancelación de ruido. Sonido 7.1 envolvente.",
+    "description": "Auriculares profesionales inalámbricos con sonido envolvente digital 7.1 y micrófono de nivel broadcast.",
     "image": "/img/audifonos.webp",
     "price": 199990,
     "specs": [
-      "Sonido: 7.1 Surround",
-      "Micrófono: Cancelación de ruido",
-      "Batería: 24 horas",
-      "Conectividad: Bluetooth 5.0",
-      "Impedancia: 32 Ohm"
+      "Audio: Sonido envolvente digital 7.1",
+      "Micrófono: Cardioide con cancelación de ruido",
+      "Batería: Hasta 24 horas de uso",
+      "Conectividad: Inalámbrica 2.4GHz / Jack 3.5mm",
+      "Drivers: Neodimio de 50mm"
     ]
   },
   {
-    "id": "silla",
+    "id": "audifonos_air",
+    "name": "Audífonos Nexus Air Wireless",
+    "category": "audifonos",
+    "description": "Audífonos ultraligeros con almohadillas de tela transpirable. Comodidad absoluta para jugar en verano.",
+    "image": "/img/audifonos.webp",
+    "price": 179990,
+    "specs": [
+      "Peso: Solo 220 gramos",
+      "Almohadillas: Tela de malla deportiva transpirable",
+      "Conexión: Receptor USB ultrabajo retraso",
+      "Compatibilidad: PS5, PS4, PC, Nintendo Switch",
+      "Drivers: Ajustados a medida de 40mm"
+    ]
+  },
+  {
+    "id": "audifonos_studio",
+    "name": "Audífonos Nexus Studio Gamer",
+    "category": "audifonos",
+    "description": "Combinación perfecta de auriculares de monitoreo de audio profesional con diadema gamer.",
+    "image": "/img/audifonos.webp",
+    "price": 149990,
+    "specs": [
+      "Respuesta de frecuencia: 15Hz - 28kHz",
+      "Impedancia: 38 Ohm",
+      "Micrófono: Condensador desmontable",
+      "Aislamiento: Acústico pasivo premium",
+      "Construcción: Bisagras de metal resistente"
+    ]
+  },
+  {
+    "id": "audifonos_kitty",
+    "name": "Audífonos Nexus Kitty Ears Pink",
+    "category": "audifonos",
+    "description": "Llama la atención en tus streams con orejas de gato integradas iluminadas por luces LED programables.",
+    "image": "/img/audifonos.webp",
+    "price": 89990,
+    "specs": [
+      "Estilo: Orejas de gato fijas con iluminación RGB",
+      "Color: Rosa Sakura y Blanco",
+      "Conexión: Cable USB para alimentación de luces",
+      "Sonido: Estéreo envolvente",
+      "Micrófono: Micrófono retráctil integrado"
+    ]
+  },
+  {
+    "id": "audifonos_esports",
+    "name": "Audífonos Nexus eSports Pro Master",
+    "category": "audifonos",
+    "description": "Diseñado para torneos con altavoces con cámara doble que separan los graves de los medios y agudos.",
+    "image": "/img/audifonos.webp",
+    "price": 229990,
+    "specs": [
+      "Drivers: Dual Chamber (Cámara Doble) de 55mm",
+      "Micrófono: Condensador de calidad de estudio",
+      "Diadema: Acero flexible con Memory Foam",
+      "Tarjeta de sonido: USB externa de control DSP",
+      "Certificación: Optimizado para Discord y TeamSpeak"
+    ]
+  },
+  {
+    "id": "audifonos_gladiator",
+    "name": "Audífonos Nexus Gladiator RGB",
+    "category": "audifonos",
+    "description": "Auriculares con iluminación RGB cíclica en los cascos y almohadillas extra gruesas de cuero sintético.",
+    "image": "/img/audifonos.webp",
+    "price": 99990,
+    "specs": [
+      "Iluminación: RGB dinámico en ambos cascos",
+      "Diadema: Suspensión flotante autoajustable",
+      "Conexión: USB para PC y consolas",
+      "Audio: Virtual 3D surround",
+      "Controles: Rueda de volumen integrada en la orejera"
+    ]
+  },
+  {
+    "id": "audifonos_shadow",
+    "name": "Audífonos Nexus Shadow Dual-Wireless",
+    "category": "audifonos",
+    "description": "Conexión inalámbrica dual simultánea. Escucha tu partida de PC y responde llamadas de tu celular a la vez.",
+    "image": "/img/audifonos.webp",
+    "price": 249990,
+    "specs": [
+      "Conexión dual: 2.4GHz inalámbrico + Bluetooth 5.2",
+      "Batería: Hasta 35 horas continuas",
+      "Drivers: Material Grafeno de 50mm",
+      "Micrófono: Oculto con cancelación por IA",
+      "Latencia: Menor a 20ms"
+    ]
+  },
+  {
+    "id": "audifonos_entry",
+    "name": "Audífonos Nexus Entry Stereo",
+    "category": "audifonos",
+    "description": "Auriculares ligeros con conector universal Jack de 3.5mm compatible con todas tus plataformas y consolas.",
+    "image": "/img/audifonos.webp",
+    "price": 39990,
+    "specs": [
+      "Conexión: Conector analógico de 3.5mm de 4 polos",
+      "Compatibilidad: Xbox, PlayStation, Switch, Celulares",
+      "Sonido: Estéreo nítido de alta fidelidad",
+      "Micrófono: Micrófono flexible omnidireccional",
+      "Longitud del cable: 2 metros de cable engomado"
+    ]
+  },
+  {
+    "id": "audifonos_cancelling",
+    "name": "Audífonos Nexus Noise Cancelling Pro",
+    "category": "audifonos",
+    "description": "Aislamiento total con cancelación activa de ruido híbrida (ANC) para concentrarte en tus torneos.",
+    "image": "/img/audifonos.webp",
+    "price": 219990,
+    "specs": [
+      "Tecnología: Cancelación Activa de Ruido (ANC)",
+      "Modo transparencia: Escucha el entorno sin quitarte los cascos",
+      "Drivers: Custom Dynamic de 45mm",
+      "Conexión: Bluetooth 5.1 y jack auxiliar",
+      "Almohadillas: Espuma viscoelástica premium"
+    ]
+  },
+  {
+    "id": "audifonos_light",
+    "name": "Audífonos Nexus Gamer Light Edition",
+    "category": "audifonos",
+    "description": "Cómodos, prácticos y con micrófono flexible de excelente recepción de voz. Ideales para teletrabajo y juego.",
+    "image": "/img/audifonos.webp",
+    "price": 59990,
+    "specs": [
+      "Audio: Estéreo balanceado",
+      "Micrófono: Cuello de cisne ajustable",
+      "Conexión: Cable Y divisor de 3.5mm incluido",
+      "Peso: 240 gramos",
+      "Control de volumen: En el cable con interruptor de silencio"
+    ]
+  },
+  {
+    "id": "silla_throne",
     "name": "Silla Ergonómica Nexus Throne",
     "category": "silla",
-    "description": "Silla gaming con reclinación total y soporte lumbar ajustable. Comodidad extrema.",
+    "description": "Silla gamer de alto confort con reclinación de hasta 180° y soporte lumbar ergonómico ajustable.",
     "image": "/img/silla.jpg",
     "price": 299990,
     "specs": [
-      "Reclinación: 0-180 grados",
-      "Material: Cuero sintético",
-      "Soporte: Lumbar ajustable",
-      "Altura: 50-60 cm ajustable",
-      "Peso máximo: 150 kg"
+      "Reclinación: 90 a 180 grados ajustable",
+      "Material: Cuero sintético PU microperforado",
+      "Cojines: Almohadilla cervical y lumbar removibles",
+      "Pistón: Gas Clase 4 de alta seguridad",
+      "Peso máximo soportado: 150 kg"
+    ]
+  },
+  {
+    "id": "silla_carbon",
+    "name": "Silla Nexus Carbon Fiber Pro",
+    "category": "silla",
+    "description": "Edición reforzada con acabados de fibra de carbono y base de aluminio reforzado en estrella de 5 puntas.",
+    "image": "/img/silla.jpg",
+    "price": 349990,
+    "specs": [
+      "Estructura: Acero macizo reforzado",
+      "Acabados: Textura estilo Fibra de Carbono",
+      "Apoyabrazos: Ajustables en 4 dimensiones (4D)",
+      "Ruedas: Poliuretano de 75mm anti-rayado en piso",
+      "Peso máximo soportado: 180 kg"
+    ]
+  },
+  {
+    "id": "silla_royal",
+    "name": "Silla Nexus Royal Comfort White",
+    "category": "silla",
+    "description": "La silla gamer más sofisticada del catálogo. Acabado blanco elegante e inserciones de gamuza.",
+    "image": "/img/silla.jpg",
+    "price": 279990,
+    "specs": [
+      "Color: Blanco y negro minimalista",
+      "Detalles: Inserciones laterales de gamuza sintética",
+      "Apoyabrazos: Ajustables en 3 dimensiones (3D)",
+      "Pistón: Gas Clase 4 certificado",
+      "Espuma: Espuma moldeada en frío de alta densidad"
+    ]
+  },
+  {
+    "id": "silla_cyberpunk",
+    "name": "Silla Nexus Cyber Edition",
+    "category": "silla",
+    "description": "Estilo cyberpunk agresivo con costuras fluorescentes amarillas y soporte lumbar magnético integrado.",
+    "image": "/img/silla.jpg",
+    "price": 319990,
+    "specs": [
+      "Estética: Costuras y detalles en amarillo neón",
+      "Soporte lumbar: Magnético ajustable sin correas",
+      "Reclinación: Hasta 165 grados",
+      "Apoyabrazos: 4D con acolchado de gel",
+      "Base: Acero de alta durabilidad"
+    ]
+  },
+  {
+    "id": "silla_gladiator",
+    "name": "Silla Nexus Gladiator Edition",
+    "category": "silla",
+    "description": "Diseñada para largas jornadas de juego con soporte ergonómico avanzado para la columna vertebral.",
+    "image": "/img/silla.jpg",
+    "price": 259990,
+    "specs": [
+      "Diseño: Ergonómico de butaca deportiva",
+      "Tapizado: Tela transpirable y cuero PU",
+      "Apoyabrazos: Ajustables en altura (2D)",
+      "Cojines: Espuma viscoelástica de memoria",
+      "Mecanismo: Mariposa con control de balanceo"
+    ]
+  },
+  {
+    "id": "silla_office",
+    "name": "Silla Nexus Office Hybrid",
+    "category": "silla",
+    "description": "El balance ideal entre la sobriedad de una silla de oficina y la ergonomía de una silla gamer.",
+    "image": "/img/silla.jpg",
+    "price": 199990,
+    "specs": [
+      "Respaldo: Malla mesh premium transpirable",
+      "Soporte: Lumbar adaptativo automático",
+      "Reclinación: Mecanismo sincrónico multiposición",
+      "Estilo: Moderno y elegante",
+      "Peso máximo: 130 kg"
+    ]
+  },
+  {
+    "id": "silla_kaiser",
+    "name": "Silla Nexus Kaiser Heavy Duty",
+    "category": "silla",
+    "description": "Modelo XL diseñado para proporcionar espacio y soporte adicionales para personas altas o de gran contextura.",
+    "image": "/img/silla.jpg",
+    "price": 399900,
+    "specs": [
+      "Tamaño: Extra Grande (XL)",
+      "Tapizado: Cuero sintético DuraXtra premium",
+      "Apoyabrazos: 4D de gran tamaño",
+      "Mecanismo: Multifuncional inclinable con bloqueo",
+      "Estructura: Acero tubular de 2.2mm espesor"
+    ]
+  },
+  {
+    "id": "silla_kid",
+    "name": "Silla Nexus Kid Gamer Special",
+    "category": "silla",
+    "description": "Ergonomía adaptada para niños y adolescentes en edad escolar. Cuida la postura desde temprana edad.",
+    "image": "/img/silla.jpg",
+    "price": 149990,
+    "specs": [
+      "Tamaño: Compacto (recomendado hasta 1.60m)",
+      "Tapizado: Cuero sintético lavable y resistente",
+      "Cojines: Cervical integrado en el respaldo",
+      "Pistón: Gas Clase 3 optimizado para menor peso",
+      "Peso máximo: 100 kg"
+    ]
+  },
+  {
+    "id": "silla_recliner",
+    "name": "Silla Nexus Pro Leather Recliner",
+    "category": "silla",
+    "description": "Silla butaca gamer con reposapiés extensible integrado para recostarse y ver películas de forma ultra cómoda.",
+    "image": "/img/silla.jpg",
+    "price": 289990,
+    "specs": [
+      "Reposapiés: Extensible y acolchado debajo del asiento",
+      "Tapizado: Cuero PU suave de alta durabilidad",
+      "Reclinación: Bloqueable en cualquier ángulo (90-170°)",
+      "Apoyabrazos: Acolchados vinculados a la inclinación",
+      "Base: Nylon reforzado de alta tenacidad"
+    ]
+  },
+  {
+    "id": "silla_stealth",
+    "name": "Silla Nexus Stealth Black Edition",
+    "category": "silla",
+    "description": "Completamente negra mate. Sin logotipos llamativos ni costuras de colores. Elegancia sobria con máximo confort.",
+    "image": "/img/silla.jpg",
+    "price": 329990,
+    "specs": [
+      "Estilo: Monocromático Negro Mate (Stealth)",
+      "Tapizado: Cuero PU premium tacto suave",
+      "Apoyabrazos: 4D con cubiertas de poliuretano",
+      "Base: Aluminio pintado en negro electroestático",
+      "Pistón: Gas Clase 4 de servicio pesado"
     ]
   }
 ]
