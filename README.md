@@ -1,97 +1,114 @@
-# ⚡ Nexus Gaming - SPA de Equipamiento Gamer (Evaluación 3 - Front End)
+# Nexus Gaming - SPA de Equipamiento Gamer (Evaluación 3 - Front End)
 
-Este proyecto corresponde a la **Evaluación 3 de Front End**. Consiste en una aplicación de página única (SPA) desarrollada sobre **React** utilizando **Vite** para la automatización del entorno de desarrollo. 
+Este proyecto corresponde a la **Evaluación 3 de Front End** y consiste en una **Single Page Application (SPA)** desarrollada con **React** y **Vite**. La aplicación toma como base la temática de la Evaluación 2, **Nexus Gaming**, ampliándola con un catálogo de hardware y periféricos para gamers, ofreciendo una experiencia moderna mediante una interfaz con estilo *Glassmorphism*, detalles en neón y transiciones suaves.
 
-La aplicación adopta y expande la temática corregida de la **Evaluación 2 (Nexus Gaming)**, ofreciendo un catálogo de hardware y periféricos para gamers con una interfaz estética premium (Glassmorphism con acentos neón y transiciones fluidas), y cumpliendo con todas las exigencias de la pauta de evaluación.
-
----
-
-## 📋 Requerimientos Evaluados y Logrados
-
-### 1) Uso de la Librería React (10 Puntos)
-- El proyecto está estructurado como una Single Page Application (SPA) sobre React 19 y empaquetada mediante Vite para un rendimiento ultrarrápido y soporte de módulos ES.
-
-### 2) Codificación Basada en Componentes (20 Puntos)
-El código se encuentra modularizado en componentes reutilizables y con responsabilidades bien definidas dentro del directorio `src/components/`:
-- `Header`: Barra de navegación, buscador reactivo, perfil y botón de carrito.
-- `Hero`: Portada interactiva con transiciones de entrada y llamados a la acción.
-- `Catalog`: Contenedor inteligente del catálogo. Realiza la carga de datos y aplica filtros avanzados.
-- `ProductCard`: Tarjeta interactiva individual de producto con animaciones hover y conversión de divisa.
-- `ProductModal`: Ventana emergente con especificaciones técnicas detalladas y botón para agregar al carro.
-- `Cart`: Desplegable (drawer) lateral del carrito, cálculo de sumatorias y exportación de cotizaciones.
-- `Testimonials`: Sección dinámica de comentarios de usuarios.
-- `ContactForm`: Formulario de contacto interactivo de 4 campos.
-- `PreferencesPanel`: Configuración de cuenta y personalización de la experiencia.
-- `CookieBanner`: Banner de consentimiento de privacidad de cookies.
-- `Footer`: Pie de página informativo con la firma y el contacto del alumno.
-
-### 3) Uso de API (Consumo), Fetch, Async y Await (30 Puntos)
-El proyecto realiza peticiones asíncronas para el consumo de dos fuentes de datos distintas usando bloques `try/catch`:
-1. **API Local de Productos (`/api/products.json`)**: Consume un catálogo propio de periféricos Nexus (Mouses, Teclados, Audífonos, Sillas) con especificaciones y precios reales.
-2. **API Externa de Usuarios (`https://randomuser.me/api/?results=3`)**: Obtiene de manera dinámica fotografías, nombres y países de usuarios reales de internet para popularizar la sección de testimonios de la comunidad gaming.
-
-### 4) Uso de React Hooks (useState, useMemo, useEffect) (30 Puntos)
-- **`useState`**: Controla estados interactivos locales y globales:
-  - Búsqueda (`searchQuery`) y carrito de compras (`cartItems`).
-  - Visibilidad de modales (`prefOpen`, `cartOpen`, `activeProduct`).
-  - Preferencias personales (`userName`, `theme`, `currency`).
-  - Estados de consumo asíncrono (`loading`, `error`).
-- **`useMemo`**: Optimiza cálculos y filtros evitando renders innecesarios:
-  - Búsqueda y filtrado de periféricos en tiempo real según la categoría seleccionada y la cadena de texto de búsqueda.
-  - Cálculo dinámico de la suma total de productos en el carrito de compras.
-- **`useEffect`**: Maneja efectos secundarios y ciclo de vida de componentes:
-  - Carga asíncrona de datos en catálogo y testimonios al momento de montarse el componente.
-  - Sincronización del tema visual claro/oscuro en el DOM de la aplicación.
-  - Guardado automático y lectura del carrito de compras y preferencias de usuario.
-
-### 5) README Explicativo (10 Puntos)
-- El presente documento detalla la estructura, requerimientos y comandos del proyecto.
-
-### 6) Puntos Extras: LocalStorage y Cookies (20 Puntos)
-- **LocalStorage**: Almacena de manera local la configuración del carrito de compras y las preferencias generales para que no se pierdan al refrescar el navegador.
-- **Cookies**: La información del nombre de usuario, el tema visual activo (oscuro/claro) y la divisa seleccionada (CLP/USD) se guardan en las cookies del navegador.
-- **Gestión de Consentimiento**: Se implementó un Banner de Cookies interactivo que permite aceptar o rechazar el guardado de cookies, respetando la privacidad del usuario.
-
-### 7) Puntos Extras: Conventional Commits (10 Puntos)
-- El repositorio git local ha sido documentado utilizando la especificación de [Conventional Commits](https://www.conventionalcommits.org/). El historial de commits incluye prefijos claros (`feat:`, `docs:`, `chore:`, `style:`) describiendo los cambios arquitectónicos paso a paso.
+El proyecto fue desarrollado considerando todos los requisitos establecidos en la pauta de evaluación.
 
 ---
 
-## 🚀 Instrucciones para Ejecutar el Proyecto
+# Requerimientos implementados
 
-### Requisitos Previos
-- Tener instalado [Node.js](https://nodejs.org/) (versión 18 o superior recomendada).
+## 1. Uso de React
 
-### Pasos de Instalación y Ejecución
+La aplicación fue construida utilizando **React 19**, siguiendo la arquitectura de una SPA. El proyecto utiliza **Vite** como herramienta de desarrollo y empaquetado, permitiendo una carga rápida y una estructura moderna basada en módulos.
 
-1. **Instalar Dependencias**
-   ```bash
-   npm install
-   ```
+## 2. Desarrollo basado en componentes
 
-2. **Iniciar el Servidor de Desarrollo**
-   ```bash
-   npm run dev
-   ```
-   Abre [http://localhost:5173](http://localhost:5173) en tu navegador para interactuar con la aplicación.
+La aplicación está organizada en componentes reutilizables, cada uno con una responsabilidad específica dentro del proyecto.
 
-3. **Construir para Producción**
-   Para compilar el código optimizado y minificado listo para producción:
-   ```bash
-   npm run build
-   ```
+Los principales componentes son:
+
+* **Header:** navegación principal, buscador, acceso al perfil y carrito de compras.
+* **Hero:** portada principal con información destacada y botones de acción.
+* **Catalog:** administra la carga de productos y aplica filtros de búsqueda.
+* **ProductCard:** muestra la información resumida de cada producto.
+* **ProductModal:** presenta los detalles completos del producto y permite agregarlo al carrito.
+* **Cart:** administra los productos seleccionados, calcula el total y permite exportar una cotización.
+* **Testimonials:** muestra comentarios de usuarios obtenidos desde una API.
+* **ContactForm:** formulario de contacto con validaciones.
+* **PreferencesPanel:** permite configurar preferencias como tema, moneda y nombre del usuario.
+* **CookieBanner:** solicita el consentimiento para el uso de cookies.
+* **Footer:** contiene información general del proyecto y del autor.
+
+## 3. Consumo de APIs
+
+El proyecto utiliza **fetch**, junto con **async/await** y manejo de errores mediante **try/catch**, para consumir dos fuentes de información.
+
+* **API local:** `/api/products.json`, desde donde se obtiene el catálogo de productos con sus características y precios.
+* **API externa:** `https://randomuser.me/api/?results=3`, utilizada para cargar automáticamente nombres, fotografías y países de usuarios en la sección de testimonios.
+
+## 4. Uso de React Hooks
+
+Se implementaron distintos Hooks para administrar el funcionamiento de la aplicación.
+
+* **useState:** controla estados como el buscador, el carrito, las preferencias del usuario, la apertura de modales y los estados de carga y error.
+* **useMemo:** optimiza el filtrado de productos y el cálculo del total del carrito, evitando renderizados innecesarios.
+* **useEffect:** permite cargar la información al iniciar la aplicación, sincronizar el tema visual y guardar automáticamente las preferencias y el carrito.
+
+## 5. Documentación
+
+El proyecto incluye este archivo **README**, donde se explica la estructura general, las funcionalidades implementadas y los pasos necesarios para ejecutar la aplicación.
+
+## 6. Funcionalidades adicionales
+
+Como parte de los puntos extra se implementaron las siguientes características:
+
+* **LocalStorage:** almacena el carrito de compras y las preferencias del usuario para conservar la información incluso después de actualizar la página.
+* **Cookies:** guardan el nombre del usuario, el tema seleccionado y la moneda elegida.
+* **Banner de consentimiento:** permite aceptar o rechazar el uso de cookies antes de almacenarlas.
+
+## 7. Conventional Commits
+
+El historial del repositorio fue organizado utilizando la convención **Conventional Commits**, empleando prefijos como `feat`, `docs`, `style` y `chore` para identificar claramente cada tipo de cambio realizado durante el desarrollo.
 
 ---
 
-## 🛠️ Temática del Formulario y Exportación de Datos (Satisfaciendo Ev. 2)
-El formulario de contacto de 4 campos cuenta con las siguientes validaciones en tiempo real:
-- **Nombre Completo**: Requerido, sólo letras y espacios (coincide con su etiqueta).
-- **Correo Electrónico**: Requerido, formato estándar con `@` y dominio (coincide con su etiqueta).
-- **Teléfono**: Requerido, exactamente 9 dígitos numéricos (coincide con su etiqueta).
-- **Mensaje**: Requerido, al menos 5 caracteres (coincide con su etiqueta).
+# Instrucciones para ejecutar el proyecto
 
-Al presionar **Enviar Mensaje**:
-1. Valida el formato y concordancia de todos los campos.
-2. Almacena el nombre del remitente en el estado global (guardándolo automáticamente en cookies y localStorage).
-3. Genera y descarga de forma automática un archivo `.csv` con los datos ingresados en el formulario.
-4. Lanza la alerta nativa requerida: `formulario enviado`.
+## Requisitos
+
+* Tener instalado **Node.js** (versión 18 o superior).
+
+## Instalación
+
+Instalar las dependencias:
+
+```bash
+npm install
+```
+
+Iniciar el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+Luego abrir el navegador en:
+
+```
+http://localhost:5173
+```
+
+Para generar la versión optimizada para producción:
+
+```bash
+npm run build
+```
+
+---
+
+# Formulario de contacto
+
+El formulario incluye cuatro campos con validaciones en tiempo real:
+
+* **Nombre completo:** obligatorio y solo permite letras y espacios.
+* **Correo electrónico:** obligatorio y con formato válido.
+* **Teléfono:** obligatorio y compuesto por 9 dígitos.
+* **Mensaje:** obligatorio con un mínimo de 5 caracteres.
+
+Al enviar el formulario, la aplicación:
+
+1. Valida que toda la información ingresada sea correcta.
+2. Guarda el nombre del usuario en el estado de la aplicación, además de almacenarlo en cookies y LocalStorage.
+3. Genera automáticamente un archivo **CSV** con los datos ingresados para su descarga.
+4. Muestra la alerta solicitada: **"formulario enviado"**.
